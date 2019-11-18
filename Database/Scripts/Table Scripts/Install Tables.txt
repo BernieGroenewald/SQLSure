@@ -1,0 +1,241 @@
+CREATE TABLE [dbo].[SVC_BackupSet](
+	[BackupSetID] [int] IDENTITY(1,1) NOT NULL,
+	[BackupSetName] [varchar](50) NOT NULL,
+	[BackupSetDesc] [varchar](1024) NULL,
+	[UserID] [int] NULL,
+	[CreateDate] [datetime] NULL,
+	[Active] [varchar](1) NULL,
+	[ServerAliasID] [int] NULL,
+ CONSTRAINT [PK_BackupSet] PRIMARY KEY CLUSTERED 
+(
+	[BackupSetID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_BackupSetDatabase](
+	[BackupSetID] [int] NOT NULL,
+	[DatabaseName] [varchar](255) NOT NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_BackupSetObject](
+	[BackupSetID] [int] NOT NULL,
+	[HistoryID] [int] NOT NULL,
+	[CreateDate] [datetime] NULL,
+	[ObjectType] [varchar](50) NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_BackupSetObjectType](
+	[BackupSetID] [int] NOT NULL,
+	[ObjectType] [varchar](255) NOT NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_FileObject](
+	[FileObjectID] [int] IDENTITY(1,1) NOT NULL,
+	[FileObject] [varchar](max) NOT NULL,
+	[ObjectDescription] [varchar](255) NULL,
+ CONSTRAINT [PK_SVC_FileObject] PRIMARY KEY CLUSTERED 
+(
+	[FileObjectID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_LU_ObjectStatus](
+	[ObjectStatusID] [int] IDENTITY(1,1) NOT NULL,
+	[ObjectStatusDesc] [varchar](50) NOT NULL,
+	[AvailableForEdit] [varchar](1) NULL,
+	[AvailableToRole] [tinyint] NULL,
+	[PartOfDevCycle] [varchar](1) NULL,
+ CONSTRAINT [PK_LU_ObjectStatus] PRIMARY KEY CLUSTERED 
+(
+	[ObjectStatusID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_LU_ServerAlias](
+	[ServerAliasID] [int] IDENTITY(1,1) NOT NULL,
+	[ServerAliasDesc] [varchar](50) NOT NULL,
+	[ReleaseOrder] [tinyint] NULL,
+	[ServerGroupID] [int] NULL,
+	[ServerRoleID] [int] NULL,
+	[ServerName] [varchar](250) NULL,
+ CONSTRAINT [PK_LU_ServerAlias] PRIMARY KEY CLUSTERED 
+(
+	[ServerAliasID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_LU_ServerGroup](
+	[ServerGroupID] [int] IDENTITY(1,1) NOT NULL,
+	[ServerGroupDesc] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_LU_ServerGroup] PRIMARY KEY CLUSTERED 
+(
+	[ServerGroupID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_LU_ServerRole](
+	[ServerRoleID] [int] IDENTITY(1,1) NOT NULL,
+	[ServerRoleDesc] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_LU_ServerRole] PRIMARY KEY CLUSTERED 
+(
+	[ServerRoleID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_NotifyLog](
+	[NotifyLogID] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] [varchar](50) NULL,
+	[ObjectName] [varchar](255) NULL,
+	[DBName] [varchar](50) NULL,
+	[LogMessage] [varchar](4096) NULL,
+	[LogDate] [datetime] NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_ObjectHistory](
+	[HistoryID] [int] IDENTITY(1,1) NOT NULL,
+	[ServerID] [int] NOT NULL,
+	[HistoryDate] [datetime] NOT NULL,
+	[ObjectStatusID] [int] NOT NULL,
+	[UserName] [varchar](50) NOT NULL,
+	[ObjectName] [varchar](255) NOT NULL,
+	[DatabaseName] [varchar](255) NOT NULL,
+	[ObjectText] [varchar](max) NOT NULL,
+	[Comment] [varchar](2048) NULL,
+	[ProjectID] [int] NULL,
+	[ObjectVersion] [int] NULL,
+	[VersionAtCheckOut] [varchar](1) NULL,
+ CONSTRAINT [PK_ObjectHistory] PRIMARY KEY CLUSTERED 
+(
+	[HistoryID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_Project](
+	[ProjectID] [int] IDENTITY(1,1) NOT NULL,
+	[ProjectName] [varchar](50) NOT NULL,
+	[ProjectDesc] [varchar](1024) NULL,
+	[UserID] [int] NULL,
+	[CreateDate] [datetime] NULL,
+	[Active] [varchar](1) NULL,
+	[ObjectStatusID] [int] NULL,
+	[Comment] [varchar](2048) NULL,
+	[ServerGroupID] [int] NULL,
+ CONSTRAINT [PK_Project] PRIMARY KEY CLUSTERED 
+(
+	[ProjectID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_ProjectObject](
+	[ProjectObjectID] [int] IDENTITY(1,1) NOT NULL,
+	[ProjectID] [int] NOT NULL,
+	[FileObjectID] [int] NULL,
+	[DBName] [varchar](255) NULL,
+	[DBObjectName] [varchar](255) NULL,
+	[ObjectSequence] [int] NULL,
+	[ObjectSelected] [varchar](1) NULL,
+	[DateModified] [datetime] NULL,
+	[UserID] [int] NULL,
+ CONSTRAINT [PK_SVC_ProjectObject] PRIMARY KEY CLUSTERED 
+(
+	[ProjectObjectID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_ProjectObjectHistory](
+	[ProjectObjectHistoryID] [int] IDENTITY(1,1) NOT NULL,
+	[ProjectObjectID] [int] NOT NULL,
+	[ProjectID] [int] NOT NULL,
+	[FileObjectID] [int] NULL,
+	[DBName] [varchar](255) NULL,
+	[DBObjectName] [varchar](255) NULL,
+	[ObjectSequence] [int] NULL,
+	[ObjectSelected] [varchar](1) NULL,
+	[DateModified] [datetime] NULL,
+	[UserID] [int] NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_Server](
+	[ServerID] [int] IDENTITY(1,1) NOT NULL,
+	[ServerAliasID] [int] NOT NULL,
+	[ServerName] [varchar](250) NOT NULL,
+	[DBOwner] [varchar](50) NOT NULL,
+	[UserName] [varchar](50) NULL,
+	[Password] [varbinary](256) NULL,
+	[ServerActive] [varchar](1) NULL,
+	[IntegratedSecurity] [varchar](1) NULL,
+	[CreateDate] [datetime] NULL,
+	[ServerRoleID] [int] NULL,
+	[UserID] [int] NULL,
+ CONSTRAINT [PK_Server] PRIMARY KEY CLUSTERED 
+(
+	[ServerID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_SystemFunction](
+	[SystemFunctionId] [int] IDENTITY(1,1) NOT NULL,
+	[FunctionName] [varchar](50) NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_SystemLog](
+	[LogId] [int] IDENTITY(1,1) NOT NULL,
+	[LogType] [varchar](50) NOT NULL,
+	[LogDateTime] [datetime] NULL,
+	[LogDescription] [varchar](1024) NULL,
+	[UserName] [varchar](50) NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_SystemPerson](
+	[SystemPersonId] [int] IDENTITY(1,1) NOT NULL,
+	[SystemEntityType] [varchar](20) NOT NULL,
+	[PersonId] [int] NOT NULL,
+ CONSTRAINT [PK_SystemPerson] PRIMARY KEY CLUSTERED 
+(
+	[SystemPersonId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_SystemRole](
+	[RoleId] [int] IDENTITY(1,1) NOT NULL,
+	[RoleName] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_SystemRole] PRIMARY KEY CLUSTERED 
+(
+	[RoleId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_SystemRoleFuntion](
+	[RoleID] [int] NOT NULL,
+	[SystemFunctionId] [int] NOT NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_SystemUser](
+	[UserID] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] [varchar](50) NOT NULL,
+	[QTNumber] [varchar](10) NOT NULL,
+	[UserPassword] [varchar](50) NOT NULL,
+	[Active] [varchar](1) NULL,
+	[CreateDate] [datetime] NULL,
+	[EmailAddress] [varchar](100) NULL,
+ CONSTRAINT [PK_SystemUser] PRIMARY KEY CLUSTERED 
+(
+	[UserID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_SystemUserRole](
+	[UserID] [int] NOT NULL,
+	[RoleId] [int] NOT NULL
+) ON [PRIMARY]
+~
+CREATE TABLE [dbo].[SVC_UsageLog](
+	[LogID] [int] IDENTITY(1,1) NOT NULL,
+	[QTNumber] [varchar](10) NOT NULL,
+	[CallingForm] [varchar](50) NULL,
+	[Logdate] [datetime] NULL,
+ CONSTRAINT [PK_SVC_UsageLog] PRIMARY KEY CLUSTERED 
+(
+	[LogID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
