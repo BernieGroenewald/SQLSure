@@ -1,0 +1,6 @@
+C:\Source Code\SQLSentry\SentryHistory\bin\Debug\SentryHistory.dll
+C:\Source Code\SQLSentry\SentryHistory\bin\Debug\SentryHistory.pdb
+C:\Source Code\SQLSentry\SentryHistory\obj\Debug\SentryHistory.ObjectHistoryViewer.resources
+C:\Source Code\SQLSentry\SentryHistory\obj\Debug\SentryHistory.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\SentryHistory\obj\Debug\SentryHistory.dll
+C:\Source Code\SQLSentry\SentryHistory\obj\Debug\SentryHistory.pdb

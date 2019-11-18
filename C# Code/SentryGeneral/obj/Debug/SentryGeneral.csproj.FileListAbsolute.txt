@@ -1,0 +1,35 @@
+C:\Source Code\SQLSentry\SentryGeneral\bin\Debug\SentryGeneral.dll
+C:\Source Code\SQLSentry\SentryGeneral\bin\Debug\SentryGeneral.pdb
+C:\Source Code\SQLSentry\SQLSentry\bin\Debug\SentryGeneral.dll
+C:\Source Code\SQLSentry\SQLSentry\bin\Debug\SentryGeneral.pdb
+C:\temp\SQLSentry\bin\Debug\SentryGeneral.dll.config
+C:\temp\SQLSentry\bin\Debug\SentryGeneral.dll
+C:\temp\SQLSentry\bin\Debug\SentryGeneral.pdb
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.csprojResolveAssemblyReference.cache
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.AddDBItem.resources
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.DataStore.resources
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ObjectHistoryViewer.resources
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ObjectViewer.resources
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ScriptFileView.resources
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ViewObjectHistory.resources
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ViewObjectStatus.resources
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.csproj.GenerateResource.Cache
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.dll
+C:\temp\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.pdb
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryGeneral.dll.config
+C:\Source Code\SQLSentry\bin\Debug\SentryGeneral.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryGeneral.pdb
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.AddDBItem.resources
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.DataStore.resources
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ObjectHistoryViewer.resources
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ObjectViewer.resources
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ScriptFileView.resources
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ViewObjectHistory.resources
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.ViewObjectStatus.resources
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.dll
+C:\Source Code\SQLSentry\SentryGeneral\obj\Debug\SentryGeneral.pdb
