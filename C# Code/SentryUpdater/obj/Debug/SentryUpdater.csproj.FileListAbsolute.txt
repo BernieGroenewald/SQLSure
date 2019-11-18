@@ -1,0 +1,20 @@
+C:\Source Code\SentryUpdater\bin\Debug\SentryUpdater.dll
+C:\Source Code\SentryUpdater\bin\Debug\SentryUpdater.pdb
+C:\Source Code\SentryUpdater\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Source Code\SentryUpdater\obj\Debug\SentryUpdater.csprojResolveAssemblyReference.cache
+C:\Source Code\SentryUpdater\obj\Debug\SentryUpdater.dll
+C:\Source Code\SentryUpdater\obj\Debug\SentryUpdater.pdb
+C:\temp\SQLSentry\bin\Debug\SentryUpdater.dll
+C:\temp\SQLSentry\bin\Debug\SentryUpdater.pdb
+C:\temp\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.csprojResolveAssemblyReference.cache
+C:\temp\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.UpdateStatus.resources
+C:\temp\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.csproj.GenerateResource.Cache
+C:\temp\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.dll
+C:\temp\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.pdb
+C:\Source Code\SQLSentry\bin\Debug\SentryUpdater.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryUpdater.pdb
+C:\Source Code\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.UpdateStatus.resources
+C:\Source Code\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.dll
+C:\Source Code\SQLSentry\SentryUpdater\obj\Debug\SentryUpdater.pdb

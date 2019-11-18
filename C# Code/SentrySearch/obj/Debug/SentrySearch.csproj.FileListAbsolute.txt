@@ -1,0 +1,21 @@
+C:\Source Code\SQLSentry\SentrySearch\bin\Debug\SentrySearch.dll
+C:\Source Code\SQLSentry\SentrySearch\bin\Debug\SentrySearch.pdb
+C:\Source Code\SQLSentry\SQLSentry\bin\Debug\SentrySearch.dll
+C:\Source Code\SQLSentry\SQLSentry\bin\Debug\SentrySearch.pdb
+C:\temp\SQLSentry\bin\Debug\SentrySearch.dll
+C:\temp\SQLSentry\bin\Debug\SentrySearch.pdb
+C:\temp\SQLSentry\SentrySearch\obj\Debug\SentrySearch.csprojResolveAssemblyReference.cache
+C:\temp\SQLSentry\SentrySearch\obj\Debug\SentrySearch.Search.resources
+C:\temp\SQLSentry\SentrySearch\obj\Debug\SentrySearch.csproj.GenerateResource.Cache
+C:\temp\SQLSentry\SentrySearch\obj\Debug\SentrySearch.dll
+C:\temp\SQLSentry\SentrySearch\obj\Debug\SentrySearch.pdb
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\Source Code\SQLSentry\bin\Debug\SentrySearch.dll
+C:\Source Code\SQLSentry\bin\Debug\SentrySearch.pdb
+C:\Source Code\SQLSentry\SentrySearch\obj\Debug\SentrySearch.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\SentrySearch\obj\Debug\SentrySearch.Search.resources
+C:\Source Code\SQLSentry\SentrySearch\obj\Debug\SentrySearch.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\SentrySearch\obj\Debug\SentrySearch.dll
+C:\Source Code\SQLSentry\SentrySearch\obj\Debug\SentrySearch.pdb
