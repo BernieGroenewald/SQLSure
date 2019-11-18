@@ -1,0 +1,20 @@
+C:\Source Code\SQLSentry\SentryDataStuff\bin\Debug\SentryDataStuff.dll
+C:\Source Code\SQLSentry\SentryDataStuff\bin\Debug\SentryDataStuff.pdb
+C:\Source Code\SQLSentry\SQLSentry\bin\Debug\SentryDataStuff.dll.config
+C:\Source Code\SQLSentry\SQLSentry\bin\Debug\SentryDataStuff.dll
+C:\Source Code\SQLSentry\SQLSentry\bin\Debug\SentryDataStuff.pdb
+C:\temp\SQLSentry\bin\Debug\SentryDataStuff.dll.config
+C:\temp\SQLSentry\bin\Debug\SentryDataStuff.dll
+C:\temp\SQLSentry\bin\Debug\SentryDataStuff.pdb
+C:\temp\SQLSentry\SentryDataStuff\obj\Debug\SentryDataStuff.csprojResolveAssemblyReference.cache
+C:\temp\SQLSentry\SentryDataStuff\obj\Debug\SentryDataStuff.dll
+C:\temp\SQLSentry\SentryDataStuff\obj\Debug\SentryDataStuff.pdb
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryDataStuff.dll.config
+C:\Source Code\SQLSentry\bin\Debug\SentryDataStuff.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryDataStuff.pdb
+C:\Source Code\SQLSentry\SentryDataStuff\obj\Debug\SentryDataStuff.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\SentryDataStuff\obj\Debug\SentryDataStuff.dll
+C:\Source Code\SQLSentry\SentryDataStuff\obj\Debug\SentryDataStuff.pdb
