@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45C963AE-24DE-413F-A70A-5CB84FC727D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SentryProject</RootNamespace>
+    <AssemblyName>SentryProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProject.Designer.cs">
+      <DependentUpon>AddProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project.Designer.cs">
+      <DependentUpon>Project.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectApproval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectApproval.Designer.cs">
+      <DependentUpon>ProjectApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectBackup.Designer.cs">
+      <DependentUpon>ProjectBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDeploy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDeploy.Designer.cs">
+      <DependentUpon>ProjectDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectMaintenance.Designer.cs">
+      <DependentUpon>ProjectMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectRestore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectRestore.Designer.cs">
+      <DependentUpon>ProjectRestore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddProject.resx">
+      <DependentUpon>AddProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project.resx">
+      <DependentUpon>Project.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectApproval.resx">
+      <DependentUpon>ProjectApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectBackup.resx">
+      <DependentUpon>ProjectBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDeploy.resx">
+      <DependentUpon>ProjectDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectMaintenance.resx">
+      <DependentUpon>ProjectMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectRestore.resx">
+      <DependentUpon>ProjectRestore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SentryDataStuff\SentryDataStuff.csproj">
+      <Project>{8489c443-6a32-4549-a01e-5116fa492180}</Project>
+      <Name>SentryDataStuff</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SentryGeneral\SentryGeneral.csproj">
+      <Project>{3346bb89-a740-4ee6-9d2c-25ecb53f237c}</Project>
+      <Name>SentryGeneral</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

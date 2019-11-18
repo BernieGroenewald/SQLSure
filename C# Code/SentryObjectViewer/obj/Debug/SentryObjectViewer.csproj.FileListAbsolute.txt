@@ -1,0 +1,9 @@
+C:\Source Code\SQLSentry\SentryObjectViewer\bin\Debug\SentryObjectViewer.dll
+C:\Source Code\SQLSentry\SentryObjectViewer\bin\Debug\SentryObjectViewer.pdb
+C:\Source Code\SQLSentry\SentryObjectViewer\bin\Debug\SentryDataStuff.dll
+C:\Source Code\SQLSentry\SentryObjectViewer\bin\Debug\SentryDataStuff.pdb
+C:\Source Code\SQLSentry\SentryObjectViewer\obj\Debug\SentryObjectViewer.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\SentryObjectViewer\obj\Debug\SentryObjectViewer.ObjectViewer.resources
+C:\Source Code\SQLSentry\SentryObjectViewer\obj\Debug\SentryObjectViewer.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\SentryObjectViewer\obj\Debug\SentryObjectViewer.dll
+C:\Source Code\SQLSentry\SentryObjectViewer\obj\Debug\SentryObjectViewer.pdb
