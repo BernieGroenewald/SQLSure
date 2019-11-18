@@ -1,0 +1,40 @@
+C:\Source Code\QS\QuickSale\GeneralGlobal\bin\Debug\GeneralGlobal.dll
+C:\Source Code\QS\QuickSale\GeneralGlobal\bin\Debug\GeneralGlobal.pdb
+C:\Source Code\QS\QuickSale\GeneralGlobal\obj\Debug\ResolveAssemblyReference.cache
+C:\Source Code\QS\QuickSale\GeneralGlobal\obj\Debug\GeneralGlobal.dll
+C:\Source Code\QS\QuickSale\GeneralGlobal\obj\Debug\GeneralGlobal.pdb
+C:\Source Code\QS\QuickSale\GeneralGlobal\obj\Debug\GenerateResource.read.1.tlog
+C:\Source Code\QS\QuickSale\GeneralGlobal\obj\Debug\GeneralGlobal.Properties.Resources.resources
+C:\Source Code\QS\QuickSale\GeneralGlobal\obj\Debug\GenerateResource.write.1.tlog
+C:\Source Code\QS\QuickSale\GeneralGlobal\obj\Debug\GeneralGlobal.Resource1.resources
+C:\temp\Test\Test\GeneralGlobal\bin\Debug\GeneralGlobal.dll
+C:\temp\Test\Test\GeneralGlobal\bin\Debug\GeneralGlobal.pdb
+C:\temp\Test\Test\GeneralGlobal\obj\Debug\GeneralGlobal.Properties.Resources.resources
+C:\temp\Test\Test\GeneralGlobal\obj\Debug\GeneralGlobal.Resource1.resources
+C:\temp\Test\Test\GeneralGlobal\obj\Debug\GeneralGlobal.dll
+C:\temp\Test\Test\GeneralGlobal\obj\Debug\GeneralGlobal.pdb
+C:\temp\Test\Test\GeneralGlobal\obj\Debug\GeneralGlobal.csproj.GenerateResource.Cache
+C:\Source Code\SQL Version Checker\SQLVersionChecker\GeneralGlobal\bin\Debug\GeneralGlobal.dll
+C:\Source Code\SQL Version Checker\SQLVersionChecker\GeneralGlobal\bin\Debug\GeneralGlobal.pdb
+C:\Source Code\SQL Version Checker\SQLVersionChecker\GeneralGlobal\obj\Debug\GeneralGlobal.csprojResolveAssemblyReference.cache
+C:\Source Code\SQL Version Checker\SQLVersionChecker\GeneralGlobal\obj\Debug\GeneralGlobal.Properties.Resources.resources
+C:\Source Code\SQL Version Checker\SQLVersionChecker\GeneralGlobal\obj\Debug\GeneralGlobal.Resource1.resources
+C:\Source Code\SQL Version Checker\SQLVersionChecker\GeneralGlobal\obj\Debug\GeneralGlobal.csproj.GenerateResource.Cache
+C:\Source Code\SQL Version Checker\SQLVersionChecker\GeneralGlobal\obj\Debug\GeneralGlobal.dll
+C:\Source Code\SQL Version Checker\SQLVersionChecker\GeneralGlobal\obj\Debug\GeneralGlobal.pdb
+C:\Source Code\SSMSVC\GeneralGlobal\bin\Debug\GeneralGlobal.dll
+C:\Source Code\SSMSVC\GeneralGlobal\bin\Debug\GeneralGlobal.pdb
+C:\Source Code\SSMSVC\GeneralGlobal\obj\Debug\GeneralGlobal.csprojResolveAssemblyReference.cache
+C:\Source Code\SSMSVC\GeneralGlobal\obj\Debug\GeneralGlobal.Properties.Resources.resources
+C:\Source Code\SSMSVC\GeneralGlobal\obj\Debug\GeneralGlobal.Resource1.resources
+C:\Source Code\SSMSVC\GeneralGlobal\obj\Debug\GeneralGlobal.csproj.GenerateResource.Cache
+C:\Source Code\SSMSVC\GeneralGlobal\obj\Debug\GeneralGlobal.dll
+C:\Source Code\SSMSVC\GeneralGlobal\obj\Debug\GeneralGlobal.pdb
+C:\Source Code\SQLSentry\GeneralGlobal\bin\Debug\GeneralGlobal.dll
+C:\Source Code\SQLSentry\GeneralGlobal\bin\Debug\GeneralGlobal.pdb
+C:\Source Code\SQLSentry\GeneralGlobal\obj\Debug\GeneralGlobal.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\GeneralGlobal\obj\Debug\GeneralGlobal.Properties.Resources.resources
+C:\Source Code\SQLSentry\GeneralGlobal\obj\Debug\GeneralGlobal.Resource1.resources
+C:\Source Code\SQLSentry\GeneralGlobal\obj\Debug\GeneralGlobal.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\GeneralGlobal\obj\Debug\GeneralGlobal.dll
+C:\Source Code\SQLSentry\GeneralGlobal\obj\Debug\GeneralGlobal.pdb
