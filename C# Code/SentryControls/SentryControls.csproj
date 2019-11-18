@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA20509E-61FD-4826-969C-DE19E15217BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SentryControls</RootNamespace>
+    <AssemblyName>SentryControls</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProject.Designer.cs">
+      <DependentUpon>AddProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBCheckBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DBCheckBox.Designer.cs">
+      <DependentUpon>DBCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBObject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DBObject.Designer.cs">
+      <DependentUpon>DBObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBObjectMulti.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DBObjectMulti.Designer.cs">
+      <DependentUpon>DBObjectMulti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilterObject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilterObject.Designer.cs">
+      <DependentUpon>FilterObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ObjectSelector.Designer.cs">
+      <DependentUpon>ObjectSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddProject.resx">
+      <DependentUpon>AddProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBCheckBox.resx">
+      <DependentUpon>DBCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBObject.resx">
+      <DependentUpon>DBObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBObjectMulti.resx">
+      <DependentUpon>DBObjectMulti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilterObject.resx">
+      <DependentUpon>FilterObject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectSelector.resx">
+      <DependentUpon>ObjectSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SentryCheckOut\SentryCheckOut.csproj">
+      <Project>{0020679a-1ba4-4f46-b0a9-c814d06afba1}</Project>
+      <Name>SentryCheckOut</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SentryDataStuff\SentryDataStuff.csproj">
+      <Project>{8489c443-6a32-4549-a01e-5116fa492180}</Project>
+      <Name>SentryDataStuff</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SentryGeneral\SentryGeneral.csproj">
+      <Project>{3346bb89-a740-4ee6-9d2c-25ecb53f237c}</Project>
+      <Name>SentryGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SentryProject\SentryProject.csproj">
+      <Project>{45c963ae-24de-413f-a70a-5cb84fc727d2}</Project>
+      <Name>SentryProject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
