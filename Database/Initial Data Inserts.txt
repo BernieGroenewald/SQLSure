@@ -1,0 +1,111 @@
+insert into [SVC_SystemRole] ([RoleName])
+select 'Developer'
+
+insert into [SVC_SystemRole] ([RoleName])
+select 'Releaser UAT'
+
+insert into [SVC_SystemRole] ([RoleName])
+select 'Releaser Pre-Production'
+
+insert into [SVC_SystemRole] ([RoleName])
+select 'Releaser Production'
+
+insert into [SVC_SystemRole] ([RoleName])
+select 'Administrator'
+
+insert into [SVC_SystemRole] ([RoleName])
+select 'Testing Approver'
+
+insert into [SVC_SystemRole] ([RoleName])
+select 'Final Approver'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Check Object Out Development'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Project Maintenance'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Release to UAT'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Release to Pre-Production'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Release to Production'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Backup'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Check Out Override'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Quick Release'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Restore Development'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Restore UAT'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Restore Pre-Production'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Restore Production'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Administration'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Check Object Out UAT'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Check Object Out Pre-Production'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Approve Testing'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Approve Final'
+
+insert into [SVC_SystemFunction] ([FunctionName])
+select 'Check Object Out Production'
+
+insert into [SVC_LU_ServerRole] ([ServerRoleDesc])
+select 'Development'
+
+insert into [SVC_LU_ServerRole] ([ServerRoleDesc])
+select 'User Acceptance Testing'
+
+insert into [SVC_LU_ServerRole] ([ServerRoleDesc])
+select 'Production'
+
+insert into [SVC_LU_ServerRole] ([ServerRoleDesc])
+select 'Pre-Production'
+
+insert into [SVC_LU_ObjectStatus] ([ObjectStatusDesc], [AvailableForEdit], [AvailableToRole], [PartOfDevCycle])
+select 'Check out for edit', 'N', 1, 'Y'
+
+insert into [SVC_LU_ObjectStatus] ([ObjectStatusDesc], [AvailableForEdit], [AvailableToRole], [PartOfDevCycle])
+select 'Released to UAT', 'N', 2, 'Y'
+
+insert into [SVC_LU_ObjectStatus] ([ObjectStatusDesc], [AvailableForEdit], [AvailableToRole], [PartOfDevCycle])
+select 'Released to Production', 'Y', 4, 'N'
+
+insert into [SVC_LU_ObjectStatus] ([ObjectStatusDesc], [AvailableForEdit], [AvailableToRole], [PartOfDevCycle])
+select 'Backup', 'Y', 1, 'N'
+
+insert into [SVC_LU_ObjectStatus] ([ObjectStatusDesc], [AvailableForEdit], [AvailableToRole], [PartOfDevCycle])
+select 'Check In', 'Y', 1, 'N'
+
+insert into [SVC_LU_ObjectStatus] ([ObjectStatusDesc], [AvailableForEdit], [AvailableToRole], [PartOfDevCycle])
+select 'Check-out Undo', 'Y', 1, 'N'
+
+insert into [SVC_LU_ObjectStatus] ([ObjectStatusDesc], [AvailableForEdit], [AvailableToRole], [PartOfDevCycle])
+select 'Released to Pre-Prod', 'N', 2, 'Y'
+
+insert into [SVC_SystemRoleFuntion] ([RoleID], [SystemFunctionId])
+select SVC_SystemRole.RoleId, SVC_SystemFunction.SystemFunctionId
+from SVC_SystemFunction cross join SVC_SystemRole
