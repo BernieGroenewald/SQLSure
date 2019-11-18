@@ -1,0 +1,27 @@
+C:\Source Code\SQLSentry\SentryBackupRestore\bin\Debug\SentryBackupRestore.dll
+C:\Source Code\SQLSentry\SentryBackupRestore\bin\Debug\SentryBackupRestore.pdb
+C:\Source Code\SQLSentry\SentryBackupRestore\bin\Debug\SentryDataStuff.dll
+C:\Source Code\SQLSentry\SentryBackupRestore\bin\Debug\SentryGeneral.dll
+C:\Source Code\SQLSentry\SentryBackupRestore\bin\Debug\SentryObjectViewer.dll
+C:\Source Code\SQLSentry\SentryBackupRestore\bin\Debug\SentryDataStuff.pdb
+C:\Source Code\SQLSentry\SentryBackupRestore\bin\Debug\SentryGeneral.pdb
+C:\Source Code\SQLSentry\SentryBackupRestore\bin\Debug\SentryObjectViewer.pdb
+C:\temp\SQLSentry\bin\Debug\SentryBackupRestore.dll
+C:\temp\SQLSentry\bin\Debug\SentryBackupRestore.pdb
+C:\temp\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.csprojResolveAssemblyReference.cache
+C:\temp\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.AddBackupSet.resources
+C:\temp\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.BackupRestore.resources
+C:\temp\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.csproj.GenerateResource.Cache
+C:\temp\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.dll
+C:\temp\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.pdb
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryBackupRestore.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryBackupRestore.pdb
+C:\Source Code\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.AddBackupSet.resources
+C:\Source Code\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.BackupRestore.resources
+C:\Source Code\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.dll
+C:\Source Code\SQLSentry\SentryBackupRestore\obj\Debug\SentryBackupRestore.pdb
