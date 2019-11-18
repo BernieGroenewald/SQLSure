@@ -1,0 +1,33 @@
+C:\Source Code\SQLSentry\SentryAdmin\bin\Debug\SentryAdmin.dll
+C:\Source Code\SQLSentry\SentryAdmin\bin\Debug\SentryAdmin.pdb
+C:\Source Code\SQLSentry\SentryAdmin\bin\Debug\SentryDataStuff.dll
+C:\Source Code\SQLSentry\SentryAdmin\bin\Debug\SentryDataStuff.pdb
+C:\temp\SQLSentry\bin\Debug\SentryAdmin.dll
+C:\temp\SQLSentry\bin\Debug\SentryAdmin.pdb
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.csprojResolveAssemblyReference.cache
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.About.resources
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.AddUser.resources
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.Administrator.resources
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.Properties.Resources.resources
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.Register.resources
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.ServerGroup.resources
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.ServerSettings.resources
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.csproj.GenerateResource.Cache
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.dll
+C:\temp\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.pdb
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryAdmin.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryAdmin.pdb
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.About.resources
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.AddUser.resources
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.Administrator.resources
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.Properties.Resources.resources
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.Register.resources
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.ServerGroup.resources
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.ServerSettings.resources
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.dll
+C:\Source Code\SQLSentry\SentryAdmin\obj\Debug\SentryAdmin.pdb
