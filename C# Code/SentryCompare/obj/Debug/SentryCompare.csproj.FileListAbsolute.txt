@@ -1,0 +1,23 @@
+C:\Source Code\SQLSentry\SentryCompare\bin\Debug\SentryCompare.dll
+C:\Source Code\SQLSentry\SentryCompare\bin\Debug\SentryCompare.pdb
+C:\temp\SQLSentry\bin\Debug\SentryCompare.dll
+C:\temp\SQLSentry\bin\Debug\SentryCompare.pdb
+C:\temp\SQLSentry\SentryCompare\obj\Debug\SentryCompare.csprojResolveAssemblyReference.cache
+C:\temp\SQLSentry\SentryCompare\obj\Debug\SentryCompare.CompareObjects.resources
+C:\temp\SQLSentry\SentryCompare\obj\Debug\SentryCompare.CompareObjectsMulti.resources
+C:\temp\SQLSentry\SentryCompare\obj\Debug\SentryCompare.EnvironmentSelect.resources
+C:\temp\SQLSentry\SentryCompare\obj\Debug\SentryCompare.csproj.GenerateResource.Cache
+C:\temp\SQLSentry\SentryCompare\obj\Debug\SentryCompare.dll
+C:\temp\SQLSentry\SentryCompare\obj\Debug\SentryCompare.pdb
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XE.Core.dll
+C:\Source Code\SQLSentry\bin\Debug\Microsoft.SqlServer.XEvent.Linq.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryCompare.dll
+C:\Source Code\SQLSentry\bin\Debug\SentryCompare.pdb
+C:\Source Code\SQLSentry\SentryCompare\obj\Debug\SentryCompare.csprojResolveAssemblyReference.cache
+C:\Source Code\SQLSentry\SentryCompare\obj\Debug\SentryCompare.CompareObjects.resources
+C:\Source Code\SQLSentry\SentryCompare\obj\Debug\SentryCompare.CompareObjectsMulti.resources
+C:\Source Code\SQLSentry\SentryCompare\obj\Debug\SentryCompare.EnvironmentSelect.resources
+C:\Source Code\SQLSentry\SentryCompare\obj\Debug\SentryCompare.csproj.GenerateResource.Cache
+C:\Source Code\SQLSentry\SentryCompare\obj\Debug\SentryCompare.dll
+C:\Source Code\SQLSentry\SentryCompare\obj\Debug\SentryCompare.pdb
